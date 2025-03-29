@@ -181,10 +181,10 @@ const Slider = () => {
 										animate={{ x: 0, opacity: 1 }}
 										transition={{ duration: 1 }}
 									>
-										<p className="uppercase text-xs text-gray-500">
+										<p className="uppercase text-[8px] text-gray-500 md:text-xs">
 											maximum speed
 										</p>
-										<h4 className="font-bold text-3xl mt-2 lg:text-4xl">
+										<h4 className="font-bold text-xl mt-2 md:text-3xl lg:text-4xl">
 											{slide.performance.topSpeed}
 											<span className="text-[20px]">s</span>
 										</h4>
@@ -195,10 +195,10 @@ const Slider = () => {
 										animate={{ x: 0, opacity: 1 }}
 										transition={{ duration: 1 }}
 									>
-										<p className="uppercase text-xs text-gray-500">
+										<p className="uppercase text-[8px] text-gray-500 md:text-xs">
 											maximum Power
 										</p>
-										<h4 className="font-bold text-3xl mt-2 lg:text-4xl">
+										<h4 className="font-bold text-xl mt-2 md:text-3xl lg:text-4xl">
 											{slide.performance.maxPower}
 											<span className="text-[20px]">Ps</span>
 										</h4>
@@ -209,10 +209,10 @@ const Slider = () => {
 										animate={{ x: 0, opacity: 1 }}
 										transition={{ duration: 1 }}
 									>
-										<p className="uppercase text-xs text-gray-500">
+										<p className="uppercase text-[8px] text-gray-500 md:text-xs">
 											maximum Torque
 										</p>
-										<h4 className="font-bold text-3xl mt-2 lg:text-4xl">
+										<h4 className="font-bold text-xl mt-2 md:text-3xl lg:text-4xl">
 											{slide.performance.maxTorque}
 											<span className="text-[20px]">Nm</span>
 										</h4>
@@ -223,8 +223,10 @@ const Slider = () => {
 										animate={{ x: 0, opacity: 1 }}
 										transition={{ duration: 1 }}
 									>
-										<p className="uppercase text-xs text-gray-500">0-100KPH</p>
-										<h4 className="font-bold text-3xl mt-2 lg:text-4xl">
+										<p className="uppercase text-[8px] text-gray-500 md:text-xs">
+											0-100KPH
+										</p>
+										<h4 className="font-bold text-xl mt-2 md:text-3xl lg:text-4xl">
 											{slide.performance.mile}
 											<span className="text-[20px]">s</span>
 										</h4>

@@ -27,6 +27,7 @@ const Contact = () => {
 					initial={{ y: -900 }}
 					animate={{ y: 0 }}
 					transition={{ type: "spring" }}
+					className="w-[350px] md:w-[400px]"
 				>
 					<h4 className="text-gray-400 text-2xl my-4 font-extrabold">
 						Get in touch
@@ -47,7 +48,7 @@ const Contact = () => {
 							<p className="text-sm">07068280718</p>
 						</div>
 						<motion.button
-							className="relative px-2 py-2 text-white rounded-md my-8 bg-yellow-500 w-[400px] mx-auto overflow-hidden"
+							className="relative px-2 py-2 text-white rounded-md my-8 bg-yellow-500 w-full mx-auto overflow-hidden"
 							whileHover="hover"
 							onClick={handleClick}
 						>

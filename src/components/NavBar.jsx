@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
 	return (
-		<nav className="flex justify-between w-10/12 mx-auto mb-2 pt-3 text-gray-500 relative">
+		<nav className="flex justify-between w-11/12 mx-auto mb-2 pt-3 text-gray-500 relative md:w-10/12">
 			<NavLink to="/">
 				<h1 className="text-5xl font-main font-extrabold text-yellow-500">
 					<motion.span
